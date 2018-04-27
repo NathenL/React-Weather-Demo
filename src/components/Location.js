@@ -1,0 +1,3 @@
+/*
+  Contains all weather cards for a given location
+ */
