@@ -1,0 +1,23 @@
+.weather-card {
+    border-radius: 15px 50px;
+    background-color: #dfdfdf;
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 700px;
+    position: relative;
+}
+
+.card {
+    display: flex;
+}
+
+.temp {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+.details {
+    margin-left: 20px;
+    font-size: 20px;
+}
