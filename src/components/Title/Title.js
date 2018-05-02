@@ -5,7 +5,9 @@ import * as React from "react/cjs/react.development";
  */
 export default class Title extends React.Component {
   render() {
-    return <h1>{this.props.title}</h1>;
+    return (
+        <h1>Hello, World</h1>
+    );
   };
 }
 
