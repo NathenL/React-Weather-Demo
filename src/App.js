@@ -28,8 +28,8 @@ class App extends Component {
     return (
       <div style={{backgroundColor: 'white', width: '70%',  margin: 'auto'}}>
         <Title title="React Weather"/>
-        <Location location='Cincinnati, OH' weather={weatherCincinnati}/>
-        <Location location='Los Angeles, CA' weather={weatherLosAngeles}/>
+        <Location />
+        <Location />
       </div>
     );
   }

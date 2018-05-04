@@ -7,18 +7,6 @@ import WeatherWeek from "../WeatherWeek/WeatherWeek";
  * Contains all weather cards for a given location
  */
 export default class Location extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      selectedDay: {day: 'Thursday', weather: 'Cloudy', temp: 68, precipitation: 10, humidity: 63, wind: 10},
-    };
-  }
-
-  // Default day to first of the week
-  componentWillMount(){
-    this._setDay(this.props.weather[0]);
-  }
-
   render() {
     return (
       <div className='location'>
@@ -27,11 +15,6 @@ export default class Location extends React.Component {
       </div>
     );
   };
-
-  _setDay(day){
-    this.setState({selectedDay: day});
-    console.log("Parent", day);
-  }
 
   _getWeatherCard(){
     return (
